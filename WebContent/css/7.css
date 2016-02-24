@@ -1,0 +1,276 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	background: url("../images/background.jpg") repeat-x;
+}
+
+.container {
+	margin: 50px auto;
+	margin-bottom: 0px;
+	padding: 0px;
+	background: #ccffff;
+	width: 960px;
+	position: relative;
+	overflow: hidden;
+}
+
+.indexheader {
+	margin: 0px;
+	padding: 0px;
+	background-color: white;
+}
+
+.logo>a {
+	position: absolute;
+	left: 10px;
+	top: 6px;
+}
+
+.daohang {
+	background-image: url("../images/nav.jpg");
+	height: 45px;
+	margin: 0px;
+	padding: 0px;
+}
+
+.daohang ul {
+	list-style: none;
+}
+
+.daohang li {
+	float: left;
+	width: 90px;
+	line-height: 45px;
+	font-size: 12pt;
+	text-align: center;
+}
+
+.daohang .shu {
+	width: 1px;
+	height: 20px;
+	background: white;
+	margin-top: 15px;
+}
+
+.daohang a{
+	color: white;
+	text-decoration: none;
+}
+
+.daohang a:HOVER{
+	color: black;
+}
+
+.content{
+	margin: 10px;
+	overflow: hidden;
+}
+
+.left{
+	float: left;
+	width:270px;
+}
+
+.wen{
+	background:white;
+	height:150px;
+	overflow: hidden;
+	margin-bottom: 10px;
+}
+
+h5{
+	margin-top: 10px;
+	margin-bottom:10px;
+	padding-left: 15px;
+}
+
+.line{
+	height:1px;
+	background:url("../images/line.gif");
+}
+
+.wen ul{
+	list-style: none;
+	text-align: center;
+	padding-left: 5px;
+	margin-top: 5px;
+}
+
+.wen li{
+	text-align: center;
+	line-height: 30px;
+	width: 260px;
+	border-bottom: 1px dashed gray;
+}
+
+.wen a{
+	text-decoration:none;
+	color: black;
+	font-size: 13pt;	
+}
+
+.wen a:HOVER{
+	color: red;
+}
+
+.login{
+	margin-bottom: 10px;
+	height:220px;
+	background:white;
+	overflow: hidden;
+}
+
+.login ul{
+	list-style: none;
+	text-align: center;
+	padding-left: 0px;
+}
+
+.login li{
+	line-height: 50px;
+}
+
+.tong{
+	margin-bottom: 10px;
+	height:220px;
+	background:white;
+	overflow: hidden;
+}
+
+.tong ul{
+	list-style: square;
+	text-align: center;
+	padding-left: 0px;
+}
+
+.tong a{
+	text-decoration: none;
+	color: black;
+}
+
+.tong a:HOVER{
+	color: red;
+}
+
+.more{
+	text-align: right;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+.zai{
+	margin-bottom: 10px;
+	height:120px;
+	background:white;
+	overflow: hidden;
+}
+
+.zai a{
+	color: black;
+	text-decoration: none;
+	line-height: 25px;
+}
+
+.zai a:HOVER{
+	color: red;
+}
+
+.zai ul{
+	list-style-image: url("../images/qq.jpg");
+	text-align: center;
+	padding-left: 0px;
+}
+
+.you{
+
+	height:100px;
+	background:white;
+	overflow: hidden;
+}
+
+.link{
+	text-align: center;
+	margin-top: 10px;
+}
+
+.right{
+	width:660px;
+	float: right;
+	overflow: hidden;
+}
+
+.xinwen{
+	background:white;
+	height:163px;
+	overflow: hidden;
+	margin-bottom: 10px;
+}
+
+h4{
+	text-indent:20px;
+	margin-top: 10px;
+	margin-left: 10px;
+	background: url("../images/book.jpg") no-repeat;
+	line-height: 14px;	
+}
+
+.xinwen ul{
+	list-style: square;
+	text-align: center;
+	padding-left: 0px;
+}
+
+.xinwen li{
+	line-height: 20px;
+	width: 320px;
+	float: left;
+}
+
+.xinwen a{
+	text-decoration: none;
+	color: black;
+}
+
+.xinwen a:HOVER{
+	color: red;
+}
+
+.jianjie{
+	margin-bottom:10px;
+	background:white;
+	height:205px;
+	overflow: hidden;
+}
+
+.jianjie p{
+	text-indent: 2em;
+}
+
+.fengjing{
+	background:white;
+	height:462px;
+	overflow: hidden;
+}
+
+.fengjing ul{
+	list-style: none;
+	text-align: center;
+	padding:10px;
+}
+
+.fengjing li{
+	float: left;
+	width: 160px;
+}
+
+.fengjing a{
+	text-decoration: none;
+	color: black;
+}
+
+.footer{
+	margin-top:10px;
+	margin-bottom:10px;
+	text-align: center;
+	line-height: 10px;
+}
