@@ -102,10 +102,6 @@ h5{
 	line-height: 50px;
 }
 
-
-
-
-
 .zai{
 	margin-bottom: 10px;
 	height:120px;
@@ -151,20 +147,30 @@ h5{
 	background:white;
 	height:460px;
 	overflow: hidden;
-	margin-bottom: 10px;
 }
 
 h4{
 	text-indent:20px;
 	margin-top: 10px;
 	margin-left: 10px;
+	margin-bottom:10px;
+	margin-right:10px;
 	background: url("../images/book.jpg") no-repeat;
 	line-height: 14px;	
+	width:200px;
+	float: left;
+	display: block;
 }
 
 .sou{
-	float: right;
-	width:230px;
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-left: 10px;
+	margin-bottom:10px;
+	float:right;
+	width:200px;
+	height:20px;
+	line-height: 14px;	
 }
 
 .sou1{
@@ -177,17 +183,73 @@ h4{
 
 
 .xin{
-	
+	float:left;
+	width:660px;
 }
 
+.xin ul{
+	margin: 0px;
+	list-style: none;
+	width: 660px;
+	padding: 0px;
+}
 .xin li{
 	border-bottom: 1px dashed gray;
 	width: 660px;
+	line-height: 43px;
+	text-align: center;
+}
+.leftxin{
+	float: left;
+	margin-left: 20px;
+	font-size: 14pt;
 }
 
+.leftxin a{
+	text-decoration: none;
+}
+.rightxin{
+	text-align:right;
+	font-size: 14pt;
+	margin-right: 20px;
+}
+.ye {
+	float: left;
+}
 
+.ye ul{
+	list-style: none;
+	text-align: center;
+	margin-top: 10px;
+	height:30px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
 
+.ye li{
+	float: left;
+	color: blue;
+	line-height: 22px;
+	height:30px;
+	vertical-align: middle;
+}
 
+.ye a{
+	text-decoration: none;
+}
+
+.ye a:VISITED{
+	color:blue;
+}
+
+.fanye{
+	display: block;
+	margin: 0px;
+	padding: 0px;
+	height: 30px;
+	text-align: center;
+	width: 140px;
+}
 
 .footer{
 	margin-top:10px;
